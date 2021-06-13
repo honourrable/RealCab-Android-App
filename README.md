@@ -11,11 +11,11 @@ This candidate application is created to be a virtual wardrobe for users. It bas
 
 ## Activities
 
-- Create/Delete Drawer
+- Create/Remove Drawer
 - Add/Remove Clothe
 - List Clothes
 - Create Combine
-- Create/Delete/Update Event
+- Create/Remove/Update Event
 
 ## Screenshots
 
