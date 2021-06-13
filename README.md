@@ -9,7 +9,7 @@ This candidate application is created to be a virtual wardrobe for users. It bas
 - RecyclerViews
 - Layout Design
 
-## Acitivies
+## Activities
 
 - Create/Delete Drawer
 - Add/Remove Clothe
