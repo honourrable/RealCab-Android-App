@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMain">
+
+    <ImageView
+        android:id="@+id/background_main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background_default"
+        android:contentDescription="@string/todo"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_title_main"
+        android:layout_width="338dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="16dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button_drawers"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        android:padding="2dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/text_drawers"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_title_main"
+        app:srcCompat="@drawable/button_drawers" />
+
+    <TextView
+        android:id="@+id/text_drawers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/drawers"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_clothe_details"
+        app:layout_constraintTop_toBottomOf="@+id/text_title_main" />
+
+    <ImageButton
+        android:id="@+id/button_clothe_list"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="45dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        android:padding="2dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/text_clothe_details"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="@+id/button_drawers"
+        app:layout_constraintTop_toBottomOf="@+id/button_drawers"
+        app:srcCompat="@drawable/button_clothe_list" />
+
+    <TextView
+        android:id="@+id/text_clothe_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clothe_details"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/button_clothe_list"
+        app:layout_constraintStart_toStartOf="@+id/text_change_room"
+        app:layout_constraintTop_toTopOf="@+id/button_clothe_list" />
+
+    <ImageButton
+        android:id="@+id/button_change_room"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        android:padding="2dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/text_change_room"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_clothe_list"
+        app:layout_constraintTop_toBottomOf="@+id/button_clothe_list"
+        app:srcCompat="@drawable/button_change_room" />
+
+    <TextView
+        android:id="@+id/text_change_room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_room"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/button_change_room"
+        app:layout_constraintStart_toStartOf="@+id/text_combines"
+        app:layout_constraintTop_toTopOf="@+id/button_change_room" />
+
+    <ImageButton
+        android:id="@+id/button_events"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        android:padding="2dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/text_combines"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_change_room"
+        app:layout_constraintTop_toBottomOf="@+id/button_change_room"
+        app:srcCompat="@drawable/button_catwalk_show" />
+
+    <TextView
+        android:id="@+id/text_combines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="88dp"
+        android:text="@string/events"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/button_events"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_events"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <ImageButton
+        android:id="@+id/button_exit_app"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        android:padding="2dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/background_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_events"
+        app:layout_constraintVertical_bias="0.379"
+        app:srcCompat="@drawable/button_exit_app" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

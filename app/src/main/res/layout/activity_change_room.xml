@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityChangeRoom">
+
+    <ImageView
+        android:id="@+id/background_main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background_default"
+        android:contentDescription="@string/todo"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/head"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        android:padding="2dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="@+id/face"
+        app:layout_constraintStart_toStartOf="@+id/face"
+        app:layout_constraintTop_toTopOf="@+id/background_main" />
+
+    <ImageButton
+        android:id="@+id/lower_body"
+        android:layout_width="160dp"
+        android:layout_height="230dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="@+id/feet"
+        app:layout_constraintStart_toStartOf="@+id/feet"
+        app:layout_constraintTop_toBottomOf="@+id/upper_body" />
+
+    <ImageButton
+        android:id="@+id/face"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="@+id/upper_body"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/upper_body"
+        app:layout_constraintTop_toBottomOf="@+id/head" />
+
+    <ImageButton
+        android:id="@+id/upper_body"
+        android:layout_width="230dp"
+        android:layout_height="180dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="@+id/lower_body"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/lower_body"
+        app:layout_constraintTop_toBottomOf="@+id/face" />
+
+    <ImageButton
+        android:id="@+id/feet"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lower_body" />
+
+    <ImageButton
+        android:id="@+id/button_finish"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/save_combine"
+        android:padding="1dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/button_ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/button_reset"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/reset"
+        android:padding="1dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/button_reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

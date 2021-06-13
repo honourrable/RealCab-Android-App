@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Real Cab</string>
+    <string name="todo">TODO</string>
+    <string name="create_drawer">Create Drawer</string>
+    <string name="clothe_details">All Clothes</string>
+    <string name="change_room">Change Room</string>
+    <string name="events">Show Events</string>
+    <string name="welcome">Welcome</string>
+    <string name="type">Type:</string>
+    <string name="colour">Colour:</string>
+    <string name="pattern">Pattern:</string>
+    <string name="purchase_date">Purchase Date:</string>
+    <string name="price">Price:</string>
+    <string name="drawers">Drawers</string>
+    <string name="remove_drawer">Remove Drawer</string>
+    <string name="drawer_number">Drawer Number</string>
+    <string name="clothes_number">Clothes Number</string>
+    <string name="add_clothe">Add Clothe</string>
+    <string name="save_combine">Save Combine</string>
+    <string name="reset">Reset</string>
+    <string name="title_activity_event_edit">ActivityEventEdit</string>
+    <string name="hello_world">Hello Square World!</string>
+    <string name="space" />
+    <string name="create_event">Create Event</string>
+    <string name="event_name"><i>Name</i></string>
+    <string name="event_type"><i>Type</i></string>
+    <string name="event_date"><i>Date</i></string>
+    <string name="event_location"><i>Location</i></string>
+</resources>

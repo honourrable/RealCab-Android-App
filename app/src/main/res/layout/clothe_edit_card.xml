@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="190dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardView"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="190dp"
+        android:layout_height="175dp"
+        tools:layout_editor_absoluteX="63dp">
+
+        <ImageView
+            android:id="@+id/clothe_edit_image"
+            android:layout_width="140dp"
+            android:layout_height="175dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/change_clothe_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/todo"
+            android:padding="2dp"
+            android:scaleType="centerInside"
+            app:layout_constraintStart_toEndOf="@+id/clothe_edit_image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/button_change_image" />
+
+        <ImageButton
+            android:id="@+id/remove_clothe_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/todo"
+            android:padding="2dp"
+            android:scaleType="centerInside"
+            app:layout_constraintStart_toEndOf="@+id/clothe_edit_image"
+            app:layout_constraintTop_toBottomOf="@+id/change_clothe_image"
+            app:srcCompat="@drawable/button_remove_default" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
