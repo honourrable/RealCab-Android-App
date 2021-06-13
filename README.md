@@ -1,6 +1,6 @@
 # RealCab-Android-App
 
-This candidate application is created to be a virtual wardrobe for users. It basically stores clothes inside drawers and all the clothes are list in the relevant activitiy. Also combines can be evaluated by trying new clothes and any clothe can be created in a show which represents an event such as catwalk show. 
+This candidate application is created to be a virtual wardrobe for users. It basically stores clothes inside drawers and all the clothes are list in the relevant activitiy. Also combines can be created with clothes by trying different ones and any clothe can be added in a show which represents an event such as catwalk show. 
 
 ## Related Topics
 
@@ -8,6 +8,14 @@ This candidate application is created to be a virtual wardrobe for users. It bas
 - Intents
 - RecyclerViews
 - Layout Design
+
+## Acitivies
+
+- Create/Delete Drawer
+- Add/Remove Clothe
+- List Clothes
+- Create Combine
+- Create/Delete/Update Event
 
 ## Screenshots
 
